@@ -1,0 +1,18 @@
+After the loop, create a variable called average_cost that stores the total_cost divided by the length of the medical_costs dictionary.
+
+Print average_cost with the following message:
+
+Average Insurance Cost: {average_cost}
+
+______
+
+total_cost = 0
+
+for key, value in medical_costs.items():
+    total_cost = total_cost + value
+    print(f"Der Wert von {key} ist {value}")
+
+average_cost = total_cost / len(medical_costs)     
+
+print(f"der Gesamtwert aller Kosten beläuft sich auf {total_cost}")
+print(f"Average Insurance Cost: {average_cost}")
