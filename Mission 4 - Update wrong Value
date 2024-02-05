@@ -1,0 +1,10 @@
+You notice that Vinay's insurance cost was incorrectly inputted. Update the value associated with Vinay to 3325.0.
+
+Print the updated dictionary.#
+#
+
+:____
+
+medical_costs['Vinay'] = 3325.0
+
+print(medical_costs)
