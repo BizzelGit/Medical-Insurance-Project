@@ -1,0 +1,13 @@
+Use .get() to get the value of Marina's age and store it in a variable called marina_age. Use None as a default value if the key doesn't exist.
+
+Print marina_age with the following message:
+
+Marina's age is {marina_age}
+
+
+________
+
+
+marina_age = names_to_ages.get("Marina", None)
+
+print(marina_age)
