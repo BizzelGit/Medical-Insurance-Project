@@ -1,0 +1,8 @@
+Next, create a variable called zipped_ages that is a zipped list of pairs between the names list and the ages list.
+
+____
+
+
+zipped_ages = zip(names, ages)
+
+print(zipped_ages)
