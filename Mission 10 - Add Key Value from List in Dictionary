@@ -1,0 +1,18 @@
+Create a dictionary called names_to_ages by using a list comprehension that iterates through zipped_ages and turns each pair into a key : value item.
+
+Print names_to_ages to see the result.
+
+names_to_ages = {}
+
+for key, value in zipped_ages:
+    names_to_ages[key] = value
+
+
+print(names_to_ages)names_to_ages = {}
+
+___________
+OR
+___________
+
+names_to_ages = {key: value for key, value in zipped_ages}
+print(names_to_ages)
