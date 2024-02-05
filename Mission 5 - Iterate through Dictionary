@@ -1,0 +1,14 @@
+Let's calculate the average medical cost of each patient. Create a variable called total_cost and set it equal to 0.
+
+Next, iterate through the values in medical_costs and add each value to the total_cost variable.
+
+:____
+
+total_cost = 0
+
+for key, value in medical_costs.items():
+    total_cost = total_cost + value
+    print(f"Der Wert von {key} ist {value}")
+
+print(f"der Gesamtwert aller Kosten beläuft sich auf {total_cost}")
+    
