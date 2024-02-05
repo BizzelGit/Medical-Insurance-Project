@@ -1,0 +1,10 @@
+Using one line of code, add the following three patients to the medical_costs dictionary:
+"Connie", with an insurance cost of 8886.0.
+"Isaac", with an insurance cost of 16444.0.
+"Valentina", with an insurance cost of 6420.0.
+
+_____
+
+medical_costs.update({'Connie':8886.0, 'Isaac':16444.0, 'Valentina':6420.0})
+
+print(medical_costs)
