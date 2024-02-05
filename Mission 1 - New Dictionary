@@ -1,0 +1,3 @@
+lege ein neues Dictionary an
+
+medical_costs = dict()
