@@ -1,0 +1,12 @@
+You have been asked to create a second dictionary that maps patient names to their ages.
+
+First, create two lists called names and ages with the following data:
+
+_____
+
+names = ("Marina", "Vinay", "Connie", "Isaac", "Valentina")
+ages = (27, 24, 43, 35, 52)
+
+print(names)
+print(ages)
+
