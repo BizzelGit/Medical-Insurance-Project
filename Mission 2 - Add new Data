@@ -1,0 +1,11 @@
+Let's populate our medical_costs dictionary by adding the following key-value pairs:
+Add "Marina" to medical_costs as a key with a value of 6607.0.
+Add "Vinay" to medical_costs as a key with a value of 3225.0.
+
+_____
+
+medical_costs['Marina'] = 6607.0
+medical_costs['Vinay'] = 3225.0
+
+print(medical_costs)
+
