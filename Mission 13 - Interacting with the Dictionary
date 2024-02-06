@@ -1,0 +1,47 @@
+The medical_records dictionary acts like a database of medical records. Let's access a specific piece of data in medical_records.
+
+Print out Connie's insurance cost with the following message:
+
+Connie's insurance cost is X dollars.
+____
+
+x = medical_records['Connie']['Insurance_cost']
+
+print(f"Connie's insurance cost is {x} dollars." )
+
+____
+
+Vinay has moved to a new country, and we no longer want to include him in our medical records.
+
+Remove Vinay from medical_records.
+
+_____
+
+medical_records.pop("Vinay")
+
+print(medical_records)
+
+_____
+
+Let's take a closer look at each patient's medical record.
+
+Use a for loop to iterate through the items of medical_records. For each key-value pair, print out a string that looks like the following:
+
+{Name} is a {Age} year old {Sex} {Smoker} with a BMI of {BMI} and insurance cost of {Insurance_cost}
+
+
+______
+
+
+
+for key in medical_records.keys():
+    name = key
+    for count in medical_records:
+        med_age = medical_records[key]['Age']
+        med_sex = medical_records[key]['Sex']
+        med_smoker = medical_records[key]['Smoker']
+        med_bmi = medical_records[key]['BMI']
+        med_insurance = medical_records[key]['Insurance_cost']
+    print(f"{name} is a {med_age} year old {med_sex} {med_smoker} with a BMI of {med_bmi} and insurance cost of {med_insurance}")
+    
+
