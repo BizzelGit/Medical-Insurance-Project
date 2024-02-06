@@ -1,0 +1,12 @@
+Create a function called update_medical_records() that takes in the name of an individual as well as their medical data, and then updates the medical_records dictionary accordingly.
+
+____
+
+def update_medical_records(name, med_age, med_sex, med_smoker, med_bmi, med_insurance):
+    medical_records[name] = {"Age": med_age, "Sex": med_sex, "BMI": med_bmi, "Smoker": med_smoker, "Insurance_cost": med_insurance}
+
+
+update_medical_records("Robert", 35, "Male", "Smoker", 10.0, 5000)
+
+print(medical_records)
+    
